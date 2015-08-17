@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4060B41FF209F4FDE6EB0F73 /* libPods-JiveAuthenticatingWebViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826A55DCF717A8D1498C201C /* libPods-JiveAuthenticatingWebViewControllerDemo.a */; };
+		7A4F888B54792A98BAC893B3 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C67BECF9D9FCECED7ADE4397 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */; };
+		B86FECE61B82311400D7AFB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FECE51B82311400D7AFB5 /* main.m */; };
+		B86FECE91B82311400D7AFB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FECE81B82311400D7AFB5 /* AppDelegate.m */; };
+		B86FECEC1B82311400D7AFB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FECEB1B82311400D7AFB5 /* ViewController.m */; };
+		B86FECEF1B82311400D7AFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FECED1B82311400D7AFB5 /* Main.storyboard */; };
+		B86FECF11B82311400D7AFB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FECF01B82311400D7AFB5 /* Images.xcassets */; };
+		B86FECF41B82311400D7AFB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86FECF21B82311400D7AFB5 /* LaunchScreen.xib */; };
+		B86FED001B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B86FECFF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86FECFA1B82311400D7AFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86FECD81B82311400D7AFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FECDF1B82311400D7AFB5;
+			remoteInfo = JiveAuthenticatingWebViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		602886F037FDCF2EA858B8E7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests/Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		826A55DCF717A8D1498C201C /* libPods-JiveAuthenticatingWebViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC51F1B59EDD8EE76A6D969 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests/Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0EAB530643EF003D2A68644 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo/Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B86FECE01B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiveAuthenticatingWebViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86FECE41B82311400D7AFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86FECE51B82311400D7AFB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B86FECE71B82311400D7AFB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B86FECE81B82311400D7AFB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B86FECEA1B82311400D7AFB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B86FECEB1B82311400D7AFB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B86FECEE1B82311400D7AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86FECF01B82311400D7AFB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B86FECF31B82311400D7AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B86FECF91B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiveAuthenticatingWebViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86FECFE1B82311400D7AFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86FECFF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiveAuthenticatingWebViewControllerDemoTests.m; sourceTree = "<group>"; };
+		C67BECF9D9FCECED7ADE4397 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7317EB56A1E0FF78BB95902 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo/Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86FECDD1B82311400D7AFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4060B41FF209F4FDE6EB0F73 /* libPods-JiveAuthenticatingWebViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FECF61B82311400D7AFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4F888B54792A98BAC893B3 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0055DDF21AFA351E3D2F21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826A55DCF717A8D1498C201C /* libPods-JiveAuthenticatingWebViewControllerDemo.a */,
+				C67BECF9D9FCECED7ADE4397 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86FECD71B82311400D7AFB5 = {
+			isa = PBXGroup;
+			children = (
+				B86FECE21B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo */,
+				B86FECFC1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests */,
+				B86FECE11B82311400D7AFB5 /* Products */,
+				D073BF2EFE2BB7B7D8BC99C4 /* Pods */,
+				0E0055DDF21AFA351E3D2F21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B86FECE11B82311400D7AFB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86FECE01B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo.app */,
+				B86FECF91B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86FECE21B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B86FECE71B82311400D7AFB5 /* AppDelegate.h */,
+				B86FECE81B82311400D7AFB5 /* AppDelegate.m */,
+				B86FECEA1B82311400D7AFB5 /* ViewController.h */,
+				B86FECEB1B82311400D7AFB5 /* ViewController.m */,
+				B86FECED1B82311400D7AFB5 /* Main.storyboard */,
+				B86FECF01B82311400D7AFB5 /* Images.xcassets */,
+				B86FECF21B82311400D7AFB5 /* LaunchScreen.xib */,
+				B86FECE31B82311400D7AFB5 /* Supporting Files */,
+			);
+			path = JiveAuthenticatingWebViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		B86FECE31B82311400D7AFB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86FECE41B82311400D7AFB5 /* Info.plist */,
+				B86FECE51B82311400D7AFB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B86FECFC1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B86FECFF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.m */,
+				B86FECFD1B82311400D7AFB5 /* Supporting Files */,
+			);
+			path = JiveAuthenticatingWebViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		B86FECFD1B82311400D7AFB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86FECFE1B82311400D7AFB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D073BF2EFE2BB7B7D8BC99C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7317EB56A1E0FF78BB95902 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */,
+				B0EAB530643EF003D2A68644 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */,
+				602886F037FDCF2EA858B8E7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */,
+				8EC51F1B59EDD8EE76A6D969 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86FECDF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86FED031B82311400D7AFB5 /* Build configuration list for PBXNativeTarget "JiveAuthenticatingWebViewControllerDemo" */;
+			buildPhases = (
+				586433A2AF1C8B3C0FD3B09D /* Check Pods Manifest.lock */,
+				B86FECDC1B82311400D7AFB5 /* Sources */,
+				B86FECDD1B82311400D7AFB5 /* Frameworks */,
+				B86FECDE1B82311400D7AFB5 /* Resources */,
+				DD325E7E78BB42E11CA1C697 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiveAuthenticatingWebViewControllerDemo;
+			productName = JiveAuthenticatingWebViewControllerDemo;
+			productReference = B86FECE01B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B86FECF81B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86FED061B82311400D7AFB5 /* Build configuration list for PBXNativeTarget "JiveAuthenticatingWebViewControllerDemoTests" */;
+			buildPhases = (
+				F36F2BE357D851E29706F940 /* Check Pods Manifest.lock */,
+				B86FECF51B82311400D7AFB5 /* Sources */,
+				B86FECF61B82311400D7AFB5 /* Frameworks */,
+				B86FECF71B82311400D7AFB5 /* Resources */,
+				EC6A1BEFA1EE8F7870C61A0A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86FECFB1B82311400D7AFB5 /* PBXTargetDependency */,
+			);
+			name = JiveAuthenticatingWebViewControllerDemoTests;
+			productName = JiveAuthenticatingWebViewControllerDemoTests;
+			productReference = B86FECF91B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86FECD81B82311400D7AFB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Heath Borders";
+				TargetAttributes = {
+					B86FECDF1B82311400D7AFB5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B86FECF81B82311400D7AFB5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B86FECDF1B82311400D7AFB5;
+					};
+				};
+			};
+			buildConfigurationList = B86FECDB1B82311400D7AFB5 /* Build configuration list for PBXProject "JiveAuthenticatingWebViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86FECD71B82311400D7AFB5;
+			productRefGroup = B86FECE11B82311400D7AFB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86FECDF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo */,
+				B86FECF81B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86FECDE1B82311400D7AFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86FECEF1B82311400D7AFB5 /* Main.storyboard in Resources */,
+				B86FECF41B82311400D7AFB5 /* LaunchScreen.xib in Resources */,
+				B86FECF11B82311400D7AFB5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FECF71B82311400D7AFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586433A2AF1C8B3C0FD3B09D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD325E7E78BB42E11CA1C697 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo/Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6A1BEFA1EE8F7870C61A0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests/Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36F2BE357D851E29706F940 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86FECDC1B82311400D7AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86FECEC1B82311400D7AFB5 /* ViewController.m in Sources */,
+				B86FECE91B82311400D7AFB5 /* AppDelegate.m in Sources */,
+				B86FECE61B82311400D7AFB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FECF51B82311400D7AFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86FED001B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86FECFB1B82311400D7AFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FECDF1B82311400D7AFB5 /* JiveAuthenticatingWebViewControllerDemo */;
+			targetProxy = B86FECFA1B82311400D7AFB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B86FECED1B82311400D7AFB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86FECEE1B82311400D7AFB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86FECF21B82311400D7AFB5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86FECF31B82311400D7AFB5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B86FED011B82311400D7AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B86FED021B82311400D7AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86FED041B82311400D7AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7317EB56A1E0FF78BB95902 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiveAuthenticatingWebViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B86FED051B82311400D7AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EAB530643EF003D2A68644 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JiveAuthenticatingWebViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B86FED071B82311400D7AFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602886F037FDCF2EA858B8E7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JiveAuthenticatingWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiveAuthenticatingWebViewControllerDemo.app/JiveAuthenticatingWebViewControllerDemo";
+			};
+			name = Debug;
+		};
+		B86FED081B82311400D7AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC51F1B59EDD8EE76A6D969 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JiveAuthenticatingWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiveAuthenticatingWebViewControllerDemo.app/JiveAuthenticatingWebViewControllerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86FECDB1B82311400D7AFB5 /* Build configuration list for PBXProject "JiveAuthenticatingWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FED011B82311400D7AFB5 /* Debug */,
+				B86FED021B82311400D7AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86FED031B82311400D7AFB5 /* Build configuration list for PBXNativeTarget "JiveAuthenticatingWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FED041B82311400D7AFB5 /* Debug */,
+				B86FED051B82311400D7AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86FED061B82311400D7AFB5 /* Build configuration list for PBXNativeTarget "JiveAuthenticatingWebViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FED071B82311400D7AFB5 /* Debug */,
+				B86FED081B82311400D7AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86FECD81B82311400D7AFB5 /* Project object */;
+}

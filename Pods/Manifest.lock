@@ -1,0 +1,17 @@
+PODS:
+  - JiveAuthenticatingHTTPProtocol (0.3.2)
+  - JiveAuthenticatingWebViewController (0.1.0):
+    - JiveAuthenticatingHTTPProtocol (= 0.3.2)
+
+DEPENDENCIES:
+  - JiveAuthenticatingWebViewController (from `.`)
+
+EXTERNAL SOURCES:
+  JiveAuthenticatingWebViewController:
+    :path: .
+
+SPEC CHECKSUMS:
+  JiveAuthenticatingHTTPProtocol: f4d81a029622fe9347c38d55c2239ecdbba91720
+  JiveAuthenticatingWebViewController: 12887673a965f061aab2c8410d2ff7c3d2ff2b82
+
+COCOAPODS: 0.37.2

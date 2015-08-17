@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_JiveAuthenticatingWebViewControllerDemo_JiveAuthenticatingWebViewController : NSObject
+@end
+@implementation PodsDummy_Pods_JiveAuthenticatingWebViewControllerDemo_JiveAuthenticatingWebViewController
+@end
