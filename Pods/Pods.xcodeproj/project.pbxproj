@@ -7,445 +7,410 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D3525B9113A8739FEEF352 /* JAHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABB23F5572A3F0D077A0CD /* JAHPCanonicalRequest.m */; };
-		1541040A1D1549F090F41DA1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D417BB779FF5FA25A806CB /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */; };
-		215300F15C174582F043A547 /* JAHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A166733B6CA8FAFFBD9AFD /* JAHPCacheStoragePolicy.h */; };
-		29F28A90DEB1B8A91F3D090A /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 914A22BD59E0C00E6682BBA7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */; };
-		2A9C716D95B35AECEF544161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		30C3DA1044A9732D8011CA64 /* JAHPAuthenticatingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 08387E223083E232CB7A54D8 /* JAHPAuthenticatingHTTPProtocol.h */; };
-		3BA6CE62E3A9780072B8493B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		3F89B02D1CAA26F2EF9E848E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		53C4864F70053D8DC81DC6D0 /* JAHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A166733B6CA8FAFFBD9AFD /* JAHPCacheStoragePolicy.h */; };
-		5855C2719AB0EF88AA114DA2 /* JAHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = F64BF8E9D8ACD94E3D418AC0 /* JAHPQNSURLSessionDemux.h */; };
-		5D333FFB282E4F32E1DAB073 /* JAHPAuthenticatingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 08387E223083E232CB7A54D8 /* JAHPAuthenticatingHTTPProtocol.h */; };
-		5F5E715A1B53AF3719889727 /* JAHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F606F2C0178996296BCEE /* JAHPCanonicalRequest.h */; };
-		61B8D1C628AC288ECB90CB0F /* JAWVCAuthenticatingWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39817DA5B86F4E90CB11D6EA /* JAWVCAuthenticatingWebViewController.h */; };
-		629F87C6C6FF1127732F08F9 /* JAWVCAuthenticatingWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F497DA5587BFB5491F7EB31 /* JAWVCAuthenticatingWebViewController.m */; };
-		66847E114D4E5F6B806A7E12 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352A36CFE6944E1C0BC2AFA /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */; };
-		6968607319CDA72C2330495E /* JAHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AABB23F5572A3F0D077A0CD /* JAHPCanonicalRequest.m */; };
-		7B417AB4239A044B96D5B87E /* JAHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 96216DBA99298161D923C61D /* JAHPQNSURLSessionDemux.m */; };
-		8642D942A3F6701FA7F5233A /* JAWVCAuthenticatingWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39817DA5B86F4E90CB11D6EA /* JAWVCAuthenticatingWebViewController.h */; };
-		8D35B5EC13D24F5ACA30F0B9 /* JAHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = F64BF8E9D8ACD94E3D418AC0 /* JAHPQNSURLSessionDemux.h */; };
-		94E73508447B0F207D6A5B08 /* JAHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = 96216DBA99298161D923C61D /* JAHPQNSURLSessionDemux.m */; };
-		9AF1D50D896188CF84A19E8A /* JAHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F606F2C0178996296BCEE /* JAHPCanonicalRequest.h */; };
-		A00A975F0F833F2F2E806A6D /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A91A884DACAB9F3A63B691 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */; };
-		AEBC1F754336B1A21F52BCB4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91728E46D176E65A2CBB75D3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */; };
-		B617E9E28169DD460F59C51B /* JAWVCAuthenticatingWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F497DA5587BFB5491F7EB31 /* JAWVCAuthenticatingWebViewController.m */; };
-		BB7A6F2CE933ECE814765372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		C032E2925024A57F25386FAC /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA532B5E7058D9B8BB584F /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */; };
-		CDE12E97F6D52988FA805570 /* JAHPAuthenticatingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA692F11178870C12158 /* JAHPAuthenticatingHTTPProtocol.m */; };
-		D561256DE23065E43EFBED30 /* JAHPAuthenticatingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 979AFA692F11178870C12158 /* JAHPAuthenticatingHTTPProtocol.m */; };
-		DCA300B8607179A217F2BAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		F282D06481F506F1C4E9A784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E8A6872E8FC233A4200C4 /* Foundation.framework */; };
-		FAB885A5898DDF4BCC3ED4BE /* JAHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202272DB7AF5AE8EEB565B35 /* JAHPCacheStoragePolicy.m */; };
-		FEC449DA735DD3F937A19614 /* JAHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202272DB7AF5AE8EEB565B35 /* JAHPCacheStoragePolicy.m */; };
+		082C7CB12AD81351EBD0AF23 /* JAWVCAuthenticatingWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D2C8AA8B3C4B8C95269FC9 /* JAWVCAuthenticatingWebViewController.h */; };
+		0E0817FE359C5AD1775DFD0D /* JAHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9754216BEE96F9611DF16A70 /* JAHPCacheStoragePolicy.m */; };
+		0F8C433FF869B4F85F25C3F8 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF0755D06055DB8F0BD5AC5 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */; };
+		1BA84BDDBEFB1BECE60B9A61 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E43D834AA6F07B1E167D89 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */; };
+		1DBAF7731833C4E3A1514FE7 /* JAHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D2429107C177079473F175 /* JAHPCanonicalRequest.h */; };
+		35C59CCEEB9F3DC5C407F683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		3AAECA30BE7AE85DE7905D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		3CC362279A8720AE28DD61A3 /* JAWVCAuthenticatingWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F9099FB587E858283CD8C /* JAWVCAuthenticatingWebViewController.m */; };
+		3DF2241CE422982F561D588F /* JAHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E8424F010B984C0679050 /* JAHPQNSURLSessionDemux.h */; };
+		4F0AE09A23D375526A4863F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		530933725DCB1C8A7211B11E /* JAHPAuthenticatingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF3D2D468F13847F164976 /* JAHPAuthenticatingHTTPProtocol.m */; };
+		5946BECFCBF2DFBE4FA803A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		5A91EDC44333C96E5766D979 /* JAHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 22211A6E84ED67CBD0E637F1 /* JAHPCacheStoragePolicy.h */; };
+		6FE944EAAD202BC9E33C0327 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC1E000E3C1FD43A5BB4E02 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */; };
+		7007C1BCACC333B4C631D124 /* JAHPAuthenticatingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C1DCCEC33EB2F0215E6F43 /* JAHPAuthenticatingHTTPProtocol.h */; };
+		7036009580C8898318D6EEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		8878A556C2B1FF7BFAB7AAF3 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D345EE4CDFC5D7D26713F23A /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */; };
+		89C185883E4BBBE622973411 /* JAHPAuthenticatingHTTPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF3D2D468F13847F164976 /* JAHPAuthenticatingHTTPProtocol.m */; };
+		8B8DD54A40A2C2043DA9849E /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6A11D7AE78B3D1322BAD76 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */; };
+		92A83D382D3AABCDF9E64FC2 /* JAHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71C5D16453BAA77EEF5343 /* JAHPCanonicalRequest.m */; };
+		977161F84DD2489283E94C41 /* JAHPCacheStoragePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 22211A6E84ED67CBD0E637F1 /* JAHPCacheStoragePolicy.h */; };
+		A6B7C8DB75AD729085B65102 /* JAHPQNSURLSessionDemux.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3E8424F010B984C0679050 /* JAHPQNSURLSessionDemux.h */; };
+		AC3355ED3554E6595CBC33B7 /* JAHPAuthenticatingHTTPProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C1DCCEC33EB2F0215E6F43 /* JAHPAuthenticatingHTTPProtocol.h */; };
+		AF310BDE6C11DC6468DFDB80 /* JAHPCanonicalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71C5D16453BAA77EEF5343 /* JAHPCanonicalRequest.m */; };
+		B2E05AA6BFFB2E6F8E58C65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5A57E3711D5E5B68966D9B /* Foundation.framework */; };
+		B738D4E5607BEB2FFD737101 /* JAHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAB805FE0AF562234C2E9F6 /* JAHPQNSURLSessionDemux.m */; };
+		BA6C727901D14188E1166C18 /* JAWVCAuthenticatingWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F9099FB587E858283CD8C /* JAWVCAuthenticatingWebViewController.m */; };
+		C2E29339E52CB581A1E46B87 /* JAHPQNSURLSessionDemux.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAB805FE0AF562234C2E9F6 /* JAHPQNSURLSessionDemux.m */; };
+		D8FC51C5C48519C1F514E3F8 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6598558AF8394970FF366E /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */; };
+		DA94C60909DF3648009B50ED /* JAHPCacheStoragePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9754216BEE96F9611DF16A70 /* JAHPCacheStoragePolicy.m */; };
+		EA55A5610A950C775B72B5A7 /* JAWVCAuthenticatingWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D2C8AA8B3C4B8C95269FC9 /* JAWVCAuthenticatingWebViewController.h */; };
+		F22644ACDED46619A9642E12 /* JAHPCanonicalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D2429107C177079473F175 /* JAHPCanonicalRequest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00A898C9CB7FF35D7227B4D1 /* PBXContainerItemProxy */ = {
+		08A99D156BB9A0F35A5766C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 376FC34DD06EB77E527E32A3;
+			remoteGlobalIDString = 0A1CED28E4F2035181CDE683;
+			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
+		};
+		57BF8C54C8F5DEEE753AD03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67FB400890CADCC0683D4F77;
 			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
 		};
-		59CCBFAE24944850D652F608 /* PBXContainerItemProxy */ = {
+		7D5527E2123FFA9FF99B5519 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 86BBE11828D755B487D1A48F;
-			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
-		};
-		816CA728B5FFB0CA82814EAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2FC9577A2E3468DAA54FE96;
-			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
-		};
-		9749FBFA8DA6D618E88908A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 86BBE11828D755B487D1A48F;
-			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
-		};
-		AEE3153F14D75E6F66567E83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAB4FBC32263EBF4053C14F1;
+			remoteGlobalIDString = 712D837B71C63670379BA0D7;
 			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
 		};
-		C69236F6A7334A4D3A93659B /* PBXContainerItemProxy */ = {
+		9C2411AC4EA274B4BF316878 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6073827841E343DBAB382A80 /* Project object */;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 376FC34DD06EB77E527E32A3;
+			remoteGlobalIDString = 67FB400890CADCC0683D4F77;
 			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
+		};
+		ED998EE48AE1407539CDD653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1CED28E4F2035181CDE683;
+			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
+		};
+		FE11C0103FF672BB121EA112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD4C942B3FDBBE44273103E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B706702F8BA8F737513284;
+			remoteInfo = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01CBF49AD8556183039D40F8 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh"; sourceTree = "<group>"; };
-		03D417BB779FF5FA25A806CB /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m"; sourceTree = "<group>"; };
-		08387E223083E232CB7A54D8 /* JAHPAuthenticatingHTTPProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPAuthenticatingHTTPProtocol.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPAuthenticatingHTTPProtocol.h; sourceTree = "<group>"; };
-		12A91A884DACAB9F3A63B691 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m"; sourceTree = "<group>"; };
-		201103FCCE63DEBB09951F04 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig"; sourceTree = "<group>"; };
-		202272DB7AF5AE8EEB565B35 /* JAHPCacheStoragePolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPCacheStoragePolicy.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCacheStoragePolicy.m; sourceTree = "<group>"; };
-		2400123515000BD54B3F118B /* Pods-JiveAuthenticatingWebViewControllerDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-environment.h"; sourceTree = "<group>"; };
-		2598D3740051C4BA6187DFAF /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3352A36CFE6944E1C0BC2AFA /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
-		377E8A6872E8FC233A4200C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39817DA5B86F4E90CB11D6EA /* JAWVCAuthenticatingWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JAWVCAuthenticatingWebViewController.h; sourceTree = "<group>"; };
-		3AA80D3F4EAE86FF26F06FFF /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		418ED73BA8DA365C25744CF4 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EDB7A2E663B80F6607B544B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
-		513325C15EFD04C078F714D4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
-		5178F7844639D80840EA71B8 /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53A166733B6CA8FAFFBD9AFD /* JAHPCacheStoragePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPCacheStoragePolicy.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCacheStoragePolicy.h; sourceTree = "<group>"; };
-		5EC90EBABC82DDB6D6CB9C1B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
-		68E16FF601A972ECE9E1BBE4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h"; sourceTree = "<group>"; };
-		7AABB23F5572A3F0D077A0CD /* JAHPCanonicalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPCanonicalRequest.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCanonicalRequest.m; sourceTree = "<group>"; };
-		7B4D83B20692E5BC0ADBEF59 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F497DA5587BFB5491F7EB31 /* JAWVCAuthenticatingWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JAWVCAuthenticatingWebViewController.m; sourceTree = "<group>"; };
-		824C9E240468216F5B71710D /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		84908DC54F84FC8440B4B54F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig"; sourceTree = "<group>"; };
-		88429AC04D91DB680CEC2A02 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A1C42694625ED9EC202C76E /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		8AC376528D4C659979203F4B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		914A22BD59E0C00E6682BBA7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
-		91728E46D176E65A2CBB75D3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m"; sourceTree = "<group>"; };
-		96216DBA99298161D923C61D /* JAHPQNSURLSessionDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPQNSURLSessionDemux.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPQNSURLSessionDemux.m; sourceTree = "<group>"; };
-		979AFA692F11178870C12158 /* JAHPAuthenticatingHTTPProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPAuthenticatingHTTPProtocol.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPAuthenticatingHTTPProtocol.m; sourceTree = "<group>"; };
-		9AFCAEB6B7E071A91E7A3C0B /* libPods-JiveAuthenticatingWebViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D40334810CDC1173A5C3EE0 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5AA532B5E7058D9B8BB584F /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
-		A6984511E46B9696525E49E5 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
-		A81D99D2F8DDD815FEE88FD7 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3287D7333F5A3027A7292C6 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		B49AD93400911211F403862C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig"; sourceTree = "<group>"; };
-		BDE7D60E2900C4EF53DAD251 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C15F606F2C0178996296BCEE /* JAHPCanonicalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPCanonicalRequest.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCanonicalRequest.h; sourceTree = "<group>"; };
-		C3BCE6028297E27E9486C194 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA4C378EA6773F839EE101C /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CADDE7BF898E24FB321DA78C /* Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh"; sourceTree = "<group>"; };
-		CEE8102F09D514DE9C01D2C1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig"; sourceTree = "<group>"; };
-		DD6FCB84C51F82A71628FAF8 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
-		E6CA726C0AC56C73883D6F43 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC9B04D065B9E64A4F90AFD8 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
-		F64BF8E9D8ACD94E3D418AC0 /* JAHPQNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPQNSURLSessionDemux.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPQNSURLSessionDemux.h; sourceTree = "<group>"; };
+		00EF92F66130175958EA15DB /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		0B43D3926EFD8240522AF150 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		0CB5B7AE0B47EF875B848D52 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF209E2A9A523AB327F5D47 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		11C1A2205ECE30BA0273B752 /* libPods-JiveAuthenticatingWebViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCA983DEBF7715B1CF1E1B5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D3E8424F010B984C0679050 /* JAHPQNSURLSessionDemux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPQNSURLSessionDemux.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPQNSURLSessionDemux.h; sourceTree = "<group>"; };
+		22211A6E84ED67CBD0E637F1 /* JAHPCacheStoragePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPCacheStoragePolicy.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCacheStoragePolicy.h; sourceTree = "<group>"; };
+		2225B6B818E99A753313A64B /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig"; sourceTree = "<group>"; };
+		2A32CB6FCC2DB0082243B607 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig"; sourceTree = "<group>"; };
+		2A5A57E3711D5E5B68966D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D9EEBFE25B8D67C6C2F838F /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		313E56E2230CE199A53F4F31 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		397CE7DA7A382ED8EB6159A0 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		4D6598558AF8394970FF366E /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m"; sourceTree = "<group>"; };
+		584FB9163B57414B0ABECE97 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		58991D40EF49EDB371C30A0F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		5AC1E000E3C1FD43A5BB4E02 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m"; sourceTree = "<group>"; };
+		5FDCB381F223642EC92DD463 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6225A5465360B7F34AFF7039 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		68CFFB9C29055B4D54EB3CD2 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D71C5D16453BAA77EEF5343 /* JAHPCanonicalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPCanonicalRequest.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCanonicalRequest.m; sourceTree = "<group>"; };
+		776BA96087C601AEA9CAFD0B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig"; sourceTree = "<group>"; };
+		819F9099FB587E858283CD8C /* JAWVCAuthenticatingWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JAWVCAuthenticatingWebViewController.m; sourceTree = "<group>"; };
+		83D2C8AA8B3C4B8C95269FC9 /* JAWVCAuthenticatingWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JAWVCAuthenticatingWebViewController.h; sourceTree = "<group>"; };
+		8DA5E92A96FF579D1BA973A9 /* Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		8E3493B98831B56F0AE0E7A2 /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9754216BEE96F9611DF16A70 /* JAHPCacheStoragePolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPCacheStoragePolicy.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCacheStoragePolicy.m; sourceTree = "<group>"; };
+		AC537D718EBA1A2FF2063467 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A5297B1A9B7EB3969DF318 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch"; sourceTree = "<group>"; };
+		B3D2116E32C1EDAA2BD169C7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig"; sourceTree = "<group>"; };
+		BA6A11D7AE78B3D1322BAD76 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m"; sourceTree = "<group>"; };
+		BB3841438D0CBCA2007688CB /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4588A7BC2B2CC9D2D15459 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h"; sourceTree = "<group>"; };
+		C3B2C244F5B0C947700406EE /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		C8FF12420209EF10E458228F /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF0755D06055DB8F0BD5AC5 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		CE25F03C664BFD176BD7611C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh"; sourceTree = "<group>"; };
+		CE9BD7446F38BC41FEFADD8F /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFAB805FE0AF562234C2E9F6 /* JAHPQNSURLSessionDemux.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPQNSURLSessionDemux.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPQNSURLSessionDemux.m; sourceTree = "<group>"; };
+		D345EE4CDFC5D7D26713F23A /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		DC27FD2A2DF3FEC2212F7CC9 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1E43D834AA6F07B1E167D89 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m"; path = "../Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m"; sourceTree = "<group>"; };
+		E2D2429107C177079473F175 /* JAHPCanonicalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPCanonicalRequest.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPCanonicalRequest.h; sourceTree = "<group>"; };
+		E3C1DCCEC33EB2F0215E6F43 /* JAHPAuthenticatingHTTPProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAHPAuthenticatingHTTPProtocol.h; path = Source/JiveAuthenticatingHTTPProtocol/JAHPAuthenticatingHTTPProtocol.h; sourceTree = "<group>"; };
+		E44CC485E53963ACB97412D7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4EE7AC7CC3D05428B3E1FA1 /* Pods-JiveAuthenticatingWebViewControllerDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JiveAuthenticatingWebViewControllerDemo-environment.h"; sourceTree = "<group>"; };
+		FABF3D2D468F13847F164976 /* JAHPAuthenticatingHTTPProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAHPAuthenticatingHTTPProtocol.m; path = Source/JiveAuthenticatingHTTPProtocol/JAHPAuthenticatingHTTPProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BAA899F6CF20408BBDC8A69 /* Frameworks */ = {
+		0E173D8548BB8FB09E3218E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F282D06481F506F1C4E9A784 /* Foundation.framework in Frameworks */,
+				5946BECFCBF2DFBE4FA803A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BF88CE5DC195ABBBE659F53 /* Frameworks */ = {
+		8F45F1D21A53AD6BD355F843 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F89B02D1CAA26F2EF9E848E /* Foundation.framework in Frameworks */,
+				B2E05AA6BFFB2E6F8E58C65F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C29C5BF7A589510EDFFF1309 /* Frameworks */ = {
+		96484114E348CA2011CB85BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA6CE62E3A9780072B8493B /* Foundation.framework in Frameworks */,
+				35C59CCEEB9F3DC5C407F683 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB77A4573F4D6EFC6C808D58 /* Frameworks */ = {
+		AF8B342111208164D2C8E539 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7A6F2CE933ECE814765372 /* Foundation.framework in Frameworks */,
+				4F0AE09A23D375526A4863F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4926C2227919E85928B5578 /* Frameworks */ = {
+		C16C429E7D634A1C0F066E2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9C716D95B35AECEF544161 /* Foundation.framework in Frameworks */,
+				3AAECA30BE7AE85DE7905D20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30BE9FE47B704541AB616ED /* Frameworks */ = {
+		D27324D2C434E8219459FB04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA300B8607179A217F2BAB4 /* Foundation.framework in Frameworks */,
+				7036009580C8898318D6EEE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0689EBB1137EDC051DE3D93A /* Targets Support Files */ = {
+		2E4A597504C7038B1DBC2310 /* Pods-JiveAuthenticatingWebViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				37097C5518C4EBDAA677BBFD /* Pods-JiveAuthenticatingWebViewControllerDemo */,
-				B09086BF8B55D6EE34D2B432 /* Pods-JiveAuthenticatingWebViewControllerDemoTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2ECE722262B6ABB79348C202 /* JiveAuthenticatingWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				39817DA5B86F4E90CB11D6EA /* JAWVCAuthenticatingWebViewController.h */,
-				7F497DA5587BFB5491F7EB31 /* JAWVCAuthenticatingWebViewController.m */,
-			);
-			path = JiveAuthenticatingWebViewController;
-			sourceTree = "<group>";
-		};
-		2F6E4277125B908B9FBBBC64 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D928075A5089C4B271FC68A /* JiveAuthenticatingHTTPProtocol */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		37097C5518C4EBDAA677BBFD /* Pods-JiveAuthenticatingWebViewControllerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				5178F7844639D80840EA71B8 /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown */,
-				8A1C42694625ED9EC202C76E /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist */,
-				3352A36CFE6944E1C0BC2AFA /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */,
-				2400123515000BD54B3F118B /* Pods-JiveAuthenticatingWebViewControllerDemo-environment.h */,
-				CADDE7BF898E24FB321DA78C /* Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh */,
-				CAA4C378EA6773F839EE101C /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */,
-				824C9E240468216F5B71710D /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */,
+				8E3493B98831B56F0AE0E7A2 /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.markdown */,
+				CE9BD7446F38BC41FEFADD8F /* Pods-JiveAuthenticatingWebViewControllerDemo-acknowledgements.plist */,
+				CBF0755D06055DB8F0BD5AC5 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m */,
+				F4EE7AC7CC3D05428B3E1FA1 /* Pods-JiveAuthenticatingWebViewControllerDemo-environment.h */,
+				8DA5E92A96FF579D1BA973A9 /* Pods-JiveAuthenticatingWebViewControllerDemo-resources.sh */,
+				0FF209E2A9A523AB327F5D47 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */,
+				6225A5465360B7F34AFF7039 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */,
 			);
 			name = "Pods-JiveAuthenticatingWebViewControllerDemo";
 			path = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo";
 			sourceTree = "<group>";
 		};
-		5D79A6BA9C831FA4B0C58950 /* Source */ = {
+		3E8ABC8051FBA99D03ABF53F /* Pods-JiveAuthenticatingWebViewControllerDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2ECE722262B6ABB79348C202 /* JiveAuthenticatingWebViewController */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		78E43D7D0BC7764509A0B2D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9AFCAEB6B7E071A91E7A3C0B /* libPods-JiveAuthenticatingWebViewControllerDemo.a */,
-				E6CA726C0AC56C73883D6F43 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */,
-				418ED73BA8DA365C25744CF4 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */,
-				C3BCE6028297E27E9486C194 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */,
-				7B4D83B20692E5BC0ADBEF59 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */,
-				A81D99D2F8DDD815FEE88FD7 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		810BE1C9C8A47BD62FBE5515 = {
-			isa = PBXGroup;
-			children = (
-				8AC376528D4C659979203F4B /* Podfile */,
-				C7BE6893256F71C7BE3B9CEC /* Development Pods */,
-				AB8117CAF11E307B750B9685 /* Frameworks */,
-				2F6E4277125B908B9FBBBC64 /* Pods */,
-				78E43D7D0BC7764509A0B2D7 /* Products */,
-				0689EBB1137EDC051DE3D93A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		86050C05CDAADB50573669EB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				84908DC54F84FC8440B4B54F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig */,
-				CEE8102F09D514DE9C01D2C1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */,
-				03D417BB779FF5FA25A806CB /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */,
-				B3287D7333F5A3027A7292C6 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch */,
-				201103FCCE63DEBB09951F04 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig */,
-				B49AD93400911211F403862C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */,
-				12A91A884DACAB9F3A63B691 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */,
-				3AA80D3F4EAE86FF26F06FFF /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
-			sourceTree = "<group>";
-		};
-		9AD0F5845748DD8AC08324CB /* JiveAuthenticatingWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5D79A6BA9C831FA4B0C58950 /* Source */,
-				86050C05CDAADB50573669EB /* Support Files */,
-			);
-			name = JiveAuthenticatingWebViewController;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		9D928075A5089C4B271FC68A /* JiveAuthenticatingHTTPProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				08387E223083E232CB7A54D8 /* JAHPAuthenticatingHTTPProtocol.h */,
-				979AFA692F11178870C12158 /* JAHPAuthenticatingHTTPProtocol.m */,
-				53A166733B6CA8FAFFBD9AFD /* JAHPCacheStoragePolicy.h */,
-				202272DB7AF5AE8EEB565B35 /* JAHPCacheStoragePolicy.m */,
-				C15F606F2C0178996296BCEE /* JAHPCanonicalRequest.h */,
-				7AABB23F5572A3F0D077A0CD /* JAHPCanonicalRequest.m */,
-				F64BF8E9D8ACD94E3D418AC0 /* JAHPQNSURLSessionDemux.h */,
-				96216DBA99298161D923C61D /* JAHPQNSURLSessionDemux.m */,
-				CA7D668D6AF6668827A03B12 /* Support Files */,
-			);
-			path = JiveAuthenticatingHTTPProtocol;
-			sourceTree = "<group>";
-		};
-		A63CFD7E2ACC998EAC63B6F1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				377E8A6872E8FC233A4200C4 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		AB8117CAF11E307B750B9685 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A63CFD7E2ACC998EAC63B6F1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B09086BF8B55D6EE34D2B432 /* Pods-JiveAuthenticatingWebViewControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				2598D3740051C4BA6187DFAF /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown */,
-				88429AC04D91DB680CEC2A02 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist */,
-				91728E46D176E65A2CBB75D3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */,
-				68E16FF601A972ECE9E1BBE4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h */,
-				01CBF49AD8556183039D40F8 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh */,
-				9D40334810CDC1173A5C3EE0 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */,
-				BDE7D60E2900C4EF53DAD251 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */,
+				313E56E2230CE199A53F4F31 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.markdown */,
+				E44CC485E53963ACB97412D7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-acknowledgements.plist */,
+				5AC1E000E3C1FD43A5BB4E02 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m */,
+				BD4588A7BC2B2CC9D2D15459 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-environment.h */,
+				CE25F03C664BFD176BD7611C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-resources.sh */,
+				C8FF12420209EF10E458228F /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */,
+				DC27FD2A2DF3FEC2212F7CC9 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */,
 			);
 			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests";
 			path = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests";
 			sourceTree = "<group>";
 		};
-		C7BE6893256F71C7BE3B9CEC /* Development Pods */ = {
+		40D30A13B57E8545077DB577 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AD0F5845748DD8AC08324CB /* JiveAuthenticatingWebViewController */,
+				B3D2116E32C1EDAA2BD169C7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.xcconfig */,
+				58991D40EF49EDB371C30A0F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */,
+				4D6598558AF8394970FF366E /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m */,
+				C3B2C244F5B0C947700406EE /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch */,
+				2225B6B818E99A753313A64B /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.xcconfig */,
+				0B43D3926EFD8240522AF150 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */,
+				BA6A11D7AE78B3D1322BAD76 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m */,
+				397CE7DA7A382ED8EB6159A0 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Pods/Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
 			sourceTree = "<group>";
 		};
-		CA7D668D6AF6668827A03B12 /* Support Files */ = {
+		6C61671F8CFE7F4A09A44182 /* JiveAuthenticatingWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5EC90EBABC82DDB6D6CB9C1B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig */,
-				4EDB7A2E663B80F6607B544B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */,
-				914A22BD59E0C00E6682BBA7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */,
-				DD6FCB84C51F82A71628FAF8 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch */,
-				EC9B04D065B9E64A4F90AFD8 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig */,
-				A6984511E46B9696525E49E5 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */,
-				A5AA532B5E7058D9B8BB584F /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */,
-				513325C15EFD04C078F714D4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch */,
+				E20A71EC030FA897D3A81EB2 /* Source */,
+				40D30A13B57E8545077DB577 /* Support Files */,
+			);
+			name = JiveAuthenticatingWebViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D6ED6689220AB5B950E9F33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E4A597504C7038B1DBC2310 /* Pods-JiveAuthenticatingWebViewControllerDemo */,
+				3E8ABC8051FBA99D03ABF53F /* Pods-JiveAuthenticatingWebViewControllerDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76FD1652FF13109F9767E53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E785BB735AC7A0B7AB622 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D8EB5594A00BED8959501D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C1A2205ECE30BA0273B752 /* libPods-JiveAuthenticatingWebViewControllerDemo.a */,
+				BB3841438D0CBCA2007688CB /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */,
+				5FDCB381F223642EC92DD463 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */,
+				68CFFB9C29055B4D54EB3CD2 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */,
+				0CB5B7AE0B47EF875B848D52 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */,
+				AC537D718EBA1A2FF2063467 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C9286CDE9613C90FA3A1A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				776BA96087C601AEA9CAFD0B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.xcconfig */,
+				2A32CB6FCC2DB0082243B607 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */,
+				D345EE4CDFC5D7D26713F23A /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m */,
+				B1A5297B1A9B7EB3969DF318 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch */,
+				584FB9163B57414B0ABECE97 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.xcconfig */,
+				00EF92F66130175958EA15DB /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */,
+				E1E43D834AA6F07B1E167D89 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m */,
+				2D9EEBFE25B8D67C6C2F838F /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
 			sourceTree = "<group>";
 		};
+		A7CD6257A7B8BF3403854CF1 /* JiveAuthenticatingHTTPProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1DCCEC33EB2F0215E6F43 /* JAHPAuthenticatingHTTPProtocol.h */,
+				FABF3D2D468F13847F164976 /* JAHPAuthenticatingHTTPProtocol.m */,
+				22211A6E84ED67CBD0E637F1 /* JAHPCacheStoragePolicy.h */,
+				9754216BEE96F9611DF16A70 /* JAHPCacheStoragePolicy.m */,
+				E2D2429107C177079473F175 /* JAHPCanonicalRequest.h */,
+				6D71C5D16453BAA77EEF5343 /* JAHPCanonicalRequest.m */,
+				1D3E8424F010B984C0679050 /* JAHPQNSURLSessionDemux.h */,
+				CFAB805FE0AF562234C2E9F6 /* JAHPQNSURLSessionDemux.m */,
+				A3C9286CDE9613C90FA3A1A3 /* Support Files */,
+			);
+			path = JiveAuthenticatingHTTPProtocol;
+			sourceTree = "<group>";
+		};
+		B610CB77402A2CE462C5926C /* JiveAuthenticatingWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83D2C8AA8B3C4B8C95269FC9 /* JAWVCAuthenticatingWebViewController.h */,
+				819F9099FB587E858283CD8C /* JAWVCAuthenticatingWebViewController.m */,
+			);
+			path = JiveAuthenticatingWebViewController;
+			sourceTree = "<group>";
+		};
+		C8F5806A29031BE087B851D1 = {
+			isa = PBXGroup;
+			children = (
+				1CCA983DEBF7715B1CF1E1B5 /* Podfile */,
+				E759770791682F80D3DC6572 /* Development Pods */,
+				76FD1652FF13109F9767E53B /* Frameworks */,
+				DC960AEE333464AA1E1EB5D0 /* Pods */,
+				84D8EB5594A00BED8959501D /* Products */,
+				6D6ED6689220AB5B950E9F33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC960AEE333464AA1E1EB5D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CD6257A7B8BF3403854CF1 /* JiveAuthenticatingHTTPProtocol */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E20A71EC030FA897D3A81EB2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B610CB77402A2CE462C5926C /* JiveAuthenticatingWebViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E759770791682F80D3DC6572 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C61671F8CFE7F4A09A44182 /* JiveAuthenticatingWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE7E785BB735AC7A0B7AB622 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A5A57E3711D5E5B68966D9B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5123D1B67898C6185384E0EA /* Headers */ = {
+		82A688EFDA9649720BC4A2E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C3DA1044A9732D8011CA64 /* JAHPAuthenticatingHTTPProtocol.h in Headers */,
-				215300F15C174582F043A547 /* JAHPCacheStoragePolicy.h in Headers */,
-				9AF1D50D896188CF84A19E8A /* JAHPCanonicalRequest.h in Headers */,
-				5855C2719AB0EF88AA114DA2 /* JAHPQNSURLSessionDemux.h in Headers */,
+				082C7CB12AD81351EBD0AF23 /* JAWVCAuthenticatingWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72BA44C4E85D79E07AFA1641 /* Headers */ = {
+		82C5719C73859DE6400DB6EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D333FFB282E4F32E1DAB073 /* JAHPAuthenticatingHTTPProtocol.h in Headers */,
-				53C4864F70053D8DC81DC6D0 /* JAHPCacheStoragePolicy.h in Headers */,
-				5F5E715A1B53AF3719889727 /* JAHPCanonicalRequest.h in Headers */,
-				8D35B5EC13D24F5ACA30F0B9 /* JAHPQNSURLSessionDemux.h in Headers */,
+				AC3355ED3554E6595CBC33B7 /* JAHPAuthenticatingHTTPProtocol.h in Headers */,
+				5A91EDC44333C96E5766D979 /* JAHPCacheStoragePolicy.h in Headers */,
+				F22644ACDED46619A9642E12 /* JAHPCanonicalRequest.h in Headers */,
+				A6B7C8DB75AD729085B65102 /* JAHPQNSURLSessionDemux.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F71C7817D3E82C44274AEDCC /* Headers */ = {
+		873330F0D19538C9656CD9E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B8D1C628AC288ECB90CB0F /* JAWVCAuthenticatingWebViewController.h in Headers */,
+				7007C1BCACC333B4C631D124 /* JAHPAuthenticatingHTTPProtocol.h in Headers */,
+				977161F84DD2489283E94C41 /* JAHPCacheStoragePolicy.h in Headers */,
+				1DBAF7731833C4E3A1514FE7 /* JAHPCanonicalRequest.h in Headers */,
+				3DF2241CE422982F561D588F /* JAHPQNSURLSessionDemux.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8BC95D1EACE6C95D07DC3E9 /* Headers */ = {
+		9E1E57BD36B29F6A70E2425B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8642D942A3F6701FA7F5233A /* JAWVCAuthenticatingWebViewController.h in Headers */,
+				EA55A5610A950C775B72B5A7 /* JAWVCAuthenticatingWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1835A283AAF9841A73C4F7F0 /* Pods-JiveAuthenticatingWebViewControllerDemo */ = {
+		0A1CED28E4F2035181CDE683 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72DC4F5477E4B68ABF843335 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo" */;
+			buildConfigurationList = F6A01C173905BB6ABA594283 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol" */;
 			buildPhases = (
-				63582F2DF7EFB9648E82ACAD /* Sources */,
-				1BAA899F6CF20408BBDC8A69 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58DD95C0B5B32C8B8484CC81 /* PBXTargetDependency */,
-				0FC0E957D6380AF6A0B00F27 /* PBXTargetDependency */,
-			);
-			name = "Pods-JiveAuthenticatingWebViewControllerDemo";
-			productName = "Pods-JiveAuthenticatingWebViewControllerDemo";
-			productReference = 9AFCAEB6B7E071A91E7A3C0B /* libPods-JiveAuthenticatingWebViewControllerDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		376FC34DD06EB77E527E32A3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD5B8CD168002940B77C073A /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol" */;
-			buildPhases = (
-				9A9B3C99EA02214374162542 /* Sources */,
-				F30BE9FE47B704541AB616ED /* Frameworks */,
-				72BA44C4E85D79E07AFA1641 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
-			productName = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
-			productReference = 7B4D83B20692E5BC0ADBEF59 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		86BBE11828D755B487D1A48F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 006373645B27B5E55D8DEB1A /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol" */;
-			buildPhases = (
-				E34F5641B602C47F4ADE81B4 /* Sources */,
-				DB77A4573F4D6EFC6C808D58 /* Frameworks */,
-				5123D1B67898C6185384E0EA /* Headers */,
+				D78465203E22E4106BD333E4 /* Sources */,
+				AF8B342111208164D2C8E539 /* Frameworks */,
+				82C5719C73859DE6400DB6EE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -453,405 +418,230 @@
 			);
 			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
 			productName = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
-			productReference = E6CA726C0AC56C73883D6F43 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */;
+			productReference = BB3841438D0CBCA2007688CB /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B2FC9577A2E3468DAA54FE96 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */ = {
+		67FB400890CADCC0683D4F77 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D251B5BD15C29EEB40DE424C /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController" */;
+			buildConfigurationList = 247E0CAF5A451CD00EB5D105 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol" */;
 			buildPhases = (
-				DC3CAAAC45E30EE3C07B8840 /* Sources */,
-				E4926C2227919E85928B5578 /* Frameworks */,
-				F8BC95D1EACE6C95D07DC3E9 /* Headers */,
+				B7B8ED7D0CC7925749E7FECD /* Sources */,
+				0E173D8548BB8FB09E3218E3 /* Frameworks */,
+				873330F0D19538C9656CD9E6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39A0541CBE26F6B86560B53B /* PBXTargetDependency */,
 			);
-			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
-			productName = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
-			productReference = A81D99D2F8DDD815FEE88FD7 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
+			productName = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
+			productReference = 0CB5B7AE0B47EF875B848D52 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CAB4FBC32263EBF4053C14F1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */ = {
+		712D837B71C63670379BA0D7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 140D4FF16F5277879D716311 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController" */;
+			buildConfigurationList = 7042E65ED9495D8F1447B423 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController" */;
 			buildPhases = (
-				A714BD0DD10347AF951D3BB5 /* Sources */,
-				C29C5BF7A589510EDFFF1309 /* Frameworks */,
-				F71C7817D3E82C44274AEDCC /* Headers */,
+				6A7644190F5FB4BF8C634E27 /* Sources */,
+				8F45F1D21A53AD6BD355F843 /* Frameworks */,
+				9E1E57BD36B29F6A70E2425B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3DEB33C9624B64442A967608 /* PBXTargetDependency */,
+				F896EC76564116F38D6E9F6C /* PBXTargetDependency */,
 			);
 			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
 			productName = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
-			productReference = 418ED73BA8DA365C25744CF4 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */;
+			productReference = 5FDCB381F223642EC92DD463 /* libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FADABA14BDD2A03422CC3E1C /* Pods-JiveAuthenticatingWebViewControllerDemoTests */ = {
+		84B706702F8BA8F737513284 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83EA81A519B1A5B794B4E45C /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests" */;
+			buildConfigurationList = 848123B59DFD471632D12636 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController" */;
 			buildPhases = (
-				F355E0EC5B6D87EF949B3B51 /* Sources */,
-				5BF88CE5DC195ABBBE659F53 /* Frameworks */,
+				20351D7F6508F66C62706FC5 /* Sources */,
+				D27324D2C434E8219459FB04 /* Frameworks */,
+				82A688EFDA9649720BC4A2E7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3DBADA1AC628271953F64477 /* PBXTargetDependency */,
-				D9275ED987E6D122E700258A /* PBXTargetDependency */,
+				C24FEB106F0220DF2340D1F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
+			productName = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
+			productReference = AC537D718EBA1A2FF2063467 /* libPods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94B91715D39669A2E2595DB7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4783CFE3B3779EDAF94CB28F /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests" */;
+			buildPhases = (
+				4B7530768F0E40DE55DBFEC9 /* Sources */,
+				96484114E348CA2011CB85BD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7CD4A5F43A8986B3346F00 /* PBXTargetDependency */,
+				1ACB512F87A2E67AE7B6BCCD /* PBXTargetDependency */,
 			);
 			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests";
 			productName = "Pods-JiveAuthenticatingWebViewControllerDemoTests";
-			productReference = C3BCE6028297E27E9486C194 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */;
+			productReference = 68CFFB9C29055B4D54EB3CD2 /* libPods-JiveAuthenticatingWebViewControllerDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7ACDD444AC84CF42B0CA0B2 /* Pods-JiveAuthenticatingWebViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA106AE8BC501EEBF34D058 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo" */;
+			buildPhases = (
+				7051516137DA885C996A8F2A /* Sources */,
+				C16C429E7D634A1C0F066E2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5628B8D3DFB5C0431009C6 /* PBXTargetDependency */,
+				7174FCEF230ACDA738982B25 /* PBXTargetDependency */,
+			);
+			name = "Pods-JiveAuthenticatingWebViewControllerDemo";
+			productName = "Pods-JiveAuthenticatingWebViewControllerDemo";
+			productReference = 11C1A2205ECE30BA0273B752 /* libPods-JiveAuthenticatingWebViewControllerDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6073827841E343DBAB382A80 /* Project object */ = {
+		3CD4C942B3FDBBE44273103E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 0BFD9318D5B4E047A6B22A64 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = D14A47634CB6AD07A475DDD8 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 810BE1C9C8A47BD62FBE5515;
-			productRefGroup = 78E43D7D0BC7764509A0B2D7 /* Products */;
+			mainGroup = C8F5806A29031BE087B851D1;
+			productRefGroup = 84D8EB5594A00BED8959501D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1835A283AAF9841A73C4F7F0 /* Pods-JiveAuthenticatingWebViewControllerDemo */,
-				86BBE11828D755B487D1A48F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */,
-				CAB4FBC32263EBF4053C14F1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */,
-				FADABA14BDD2A03422CC3E1C /* Pods-JiveAuthenticatingWebViewControllerDemoTests */,
-				376FC34DD06EB77E527E32A3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */,
-				B2FC9577A2E3468DAA54FE96 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */,
+				D7ACDD444AC84CF42B0CA0B2 /* Pods-JiveAuthenticatingWebViewControllerDemo */,
+				0A1CED28E4F2035181CDE683 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */,
+				712D837B71C63670379BA0D7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */,
+				94B91715D39669A2E2595DB7 /* Pods-JiveAuthenticatingWebViewControllerDemoTests */,
+				67FB400890CADCC0683D4F77 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */,
+				84B706702F8BA8F737513284 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63582F2DF7EFB9648E82ACAD /* Sources */ = {
+		20351D7F6508F66C62706FC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66847E114D4E5F6B806A7E12 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m in Sources */,
+				BA6C727901D14188E1166C18 /* JAWVCAuthenticatingWebViewController.m in Sources */,
+				8B8DD54A40A2C2043DA9849E /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A9B3C99EA02214374162542 /* Sources */ = {
+		4B7530768F0E40DE55DBFEC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D561256DE23065E43EFBED30 /* JAHPAuthenticatingHTTPProtocol.m in Sources */,
-				FEC449DA735DD3F937A19614 /* JAHPCacheStoragePolicy.m in Sources */,
-				6968607319CDA72C2330495E /* JAHPCanonicalRequest.m in Sources */,
-				7B417AB4239A044B96D5B87E /* JAHPQNSURLSessionDemux.m in Sources */,
-				C032E2925024A57F25386FAC /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */,
+				6FE944EAAD202BC9E33C0327 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A714BD0DD10347AF951D3BB5 /* Sources */ = {
+		6A7644190F5FB4BF8C634E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629F87C6C6FF1127732F08F9 /* JAWVCAuthenticatingWebViewController.m in Sources */,
-				1541040A1D1549F090F41DA1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m in Sources */,
+				3CC362279A8720AE28DD61A3 /* JAWVCAuthenticatingWebViewController.m in Sources */,
+				D8FC51C5C48519C1F514E3F8 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC3CAAAC45E30EE3C07B8840 /* Sources */ = {
+		7051516137DA885C996A8F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617E9E28169DD460F59C51B /* JAWVCAuthenticatingWebViewController.m in Sources */,
-				A00A975F0F833F2F2E806A6D /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-dummy.m in Sources */,
+				0F8C433FF869B4F85F25C3F8 /* Pods-JiveAuthenticatingWebViewControllerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34F5641B602C47F4ADE81B4 /* Sources */ = {
+		B7B8ED7D0CC7925749E7FECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE12E97F6D52988FA805570 /* JAHPAuthenticatingHTTPProtocol.m in Sources */,
-				FAB885A5898DDF4BCC3ED4BE /* JAHPCacheStoragePolicy.m in Sources */,
-				08D3525B9113A8739FEEF352 /* JAHPCanonicalRequest.m in Sources */,
-				94E73508447B0F207D6A5B08 /* JAHPQNSURLSessionDemux.m in Sources */,
-				29F28A90DEB1B8A91F3D090A /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */,
+				89C185883E4BBBE622973411 /* JAHPAuthenticatingHTTPProtocol.m in Sources */,
+				0E0817FE359C5AD1775DFD0D /* JAHPCacheStoragePolicy.m in Sources */,
+				AF310BDE6C11DC6468DFDB80 /* JAHPCanonicalRequest.m in Sources */,
+				B738D4E5607BEB2FFD737101 /* JAHPQNSURLSessionDemux.m in Sources */,
+				1BA84BDDBEFB1BECE60B9A61 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F355E0EC5B6D87EF949B3B51 /* Sources */ = {
+		D78465203E22E4106BD333E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBC1F754336B1A21F52BCB4 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-dummy.m in Sources */,
+				530933725DCB1C8A7211B11E /* JAHPAuthenticatingHTTPProtocol.m in Sources */,
+				DA94C60909DF3648009B50ED /* JAHPCacheStoragePolicy.m in Sources */,
+				92A83D382D3AABCDF9E64FC2 /* JAHPCanonicalRequest.m in Sources */,
+				C2E29339E52CB581A1E46B87 /* JAHPQNSURLSessionDemux.m in Sources */,
+				8878A556C2B1FF7BFAB7AAF3 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FC0E957D6380AF6A0B00F27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
-			target = CAB4FBC32263EBF4053C14F1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */;
-			targetProxy = AEE3153F14D75E6F66567E83 /* PBXContainerItemProxy */;
-		};
-		39A0541CBE26F6B86560B53B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
-			target = 376FC34DD06EB77E527E32A3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */;
-			targetProxy = 00A898C9CB7FF35D7227B4D1 /* PBXContainerItemProxy */;
-		};
-		3DBADA1AC628271953F64477 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
-			target = 376FC34DD06EB77E527E32A3 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */;
-			targetProxy = C69236F6A7334A4D3A93659B /* PBXContainerItemProxy */;
-		};
-		3DEB33C9624B64442A967608 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
-			target = 86BBE11828D755B487D1A48F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */;
-			targetProxy = 59CCBFAE24944850D652F608 /* PBXContainerItemProxy */;
-		};
-		58DD95C0B5B32C8B8484CC81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
-			target = 86BBE11828D755B487D1A48F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */;
-			targetProxy = 9749FBFA8DA6D618E88908A2 /* PBXContainerItemProxy */;
-		};
-		D9275ED987E6D122E700258A /* PBXTargetDependency */ = {
+		1ACB512F87A2E67AE7B6BCCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController";
-			target = B2FC9577A2E3468DAA54FE96 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */;
-			targetProxy = 816CA728B5FFB0CA82814EAB /* PBXContainerItemProxy */;
+			target = 84B706702F8BA8F737513284 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController */;
+			targetProxy = FE11C0103FF672BB121EA112 /* PBXContainerItemProxy */;
+		};
+		2A7CD4A5F43A8986B3346F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
+			target = 67FB400890CADCC0683D4F77 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */;
+			targetProxy = 57BF8C54C8F5DEEE753AD03C /* PBXContainerItemProxy */;
+		};
+		2C5628B8D3DFB5C0431009C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
+			target = 0A1CED28E4F2035181CDE683 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */;
+			targetProxy = ED998EE48AE1407539CDD653 /* PBXContainerItemProxy */;
+		};
+		7174FCEF230ACDA738982B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController";
+			target = 712D837B71C63670379BA0D7 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController */;
+			targetProxy = 7D5527E2123FFA9FF99B5519 /* PBXContainerItemProxy */;
+		};
+		C24FEB106F0220DF2340D1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol";
+			target = 67FB400890CADCC0683D4F77 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol */;
+			targetProxy = 9C2411AC4EA274B4BF316878 /* PBXContainerItemProxy */;
+		};
+		F896EC76564116F38D6E9F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol";
+			target = 0A1CED28E4F2035181CDE683 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol */;
+			targetProxy = 08A99D156BB9A0F35A5766C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08342BF0B32223442BB831AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EDB7A2E663B80F6607B544B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		144407AD73AD004A35F1B5D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6984511E46B9696525E49E5 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		18E80C51DAF80CBB58958230 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6984511E46B9696525E49E5 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2376431507F4352BB2608203 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49AD93400911211F403862C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		288758F8581DBAE98A1A0028 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49AD93400911211F403862C /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		33A973E1D507BC1FCFE529F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDE7D60E2900C4EF53DAD251 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		63A079322DFC0F3B1D2ED500 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA4C378EA6773F839EE101C /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		67839844314F1DBCE46A0285 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE8102F09D514DE9C01D2C1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6A6B1536152AE5E9DE12B768 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		77A244F2F84A96E4BAA0FE89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 824C9E240468216F5B71710D /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7E98FCBCDA6CCBB1E8EFA35D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D40334810CDC1173A5C3EE0 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		951F07FABB669BD0A39A971C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EDB7A2E663B80F6607B544B /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B9A5BA9E01529E05DB396E18 /* Debug */ = {
+		16BD02A37F63D677EE1BDEE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -890,9 +680,121 @@
 			};
 			name = Debug;
 		};
-		C1A1DC1DBBFFA31C6F285D6C /* Release */ = {
+		282B800E1FC600A01C8E9CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE8102F09D514DE9C01D2C1 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */;
+			baseConfigurationReference = C8FF12420209EF10E458228F /* Pods-JiveAuthenticatingWebViewControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38E10639A602216A966336CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B43D3926EFD8240522AF150 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B33D5B26327354EA32D0FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6225A5465360B7F34AFF7039 /* Pods-JiveAuthenticatingWebViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D913106B34C7191B1B7DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EF92F66130175958EA15DB /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7385474790993251DEA49359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EF92F66130175958EA15DB /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8BD74BA4524C586FE6969669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58991D40EF49EDB371C30A0F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8C8A7ECF215135F6542C230F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF209E2A9A523AB327F5D47 /* Pods-JiveAuthenticatingWebViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D2E3940891B38026C116FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58991D40EF49EDB371C30A0F /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController-prefix.pch";
@@ -906,73 +808,171 @@
 			};
 			name = Release;
 		};
+		8F714785732C34140205D5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC27FD2A2DF3FEC2212F7CC9 /* Pods-JiveAuthenticatingWebViewControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9078E2783671D7F7AD6F9DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B43D3926EFD8240522AF150 /* Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController/Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D2DABB6FAB3A4779C5F3FBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A32CB6FCC2DB0082243B607 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDBCA421C6D4EFBC6814F533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E23DF537B5F969BE10D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A32CB6FCC2DB0082243B607 /* Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol/Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		006373645B27B5E55D8DEB1A /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol" */ = {
+		247E0CAF5A451CD00EB5D105 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				951F07FABB669BD0A39A971C /* Debug */,
-				08342BF0B32223442BB831AE /* Release */,
+				4D913106B34C7191B1B7DD68 /* Debug */,
+				7385474790993251DEA49359 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BFD9318D5B4E047A6B22A64 /* Build configuration list for PBXProject "Pods" */ = {
+		4783CFE3B3779EDAF94CB28F /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9A5BA9E01529E05DB396E18 /* Debug */,
-				6A6B1536152AE5E9DE12B768 /* Release */,
+				282B800E1FC600A01C8E9CA4 /* Debug */,
+				8F714785732C34140205D5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		140D4FF16F5277879D716311 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController" */ = {
+		7042E65ED9495D8F1447B423 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67839844314F1DBCE46A0285 /* Debug */,
-				C1A1DC1DBBFFA31C6F285D6C /* Release */,
+				8BD74BA4524C586FE6969669 /* Debug */,
+				8D2E3940891B38026C116FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72DC4F5477E4B68ABF843335 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo" */ = {
+		848123B59DFD471632D12636 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A079322DFC0F3B1D2ED500 /* Debug */,
-				77A244F2F84A96E4BAA0FE89 /* Release */,
+				38E10639A602216A966336CD /* Debug */,
+				9078E2783671D7F7AD6F9DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83EA81A519B1A5B794B4E45C /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests" */ = {
+		D14A47634CB6AD07A475DDD8 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E98FCBCDA6CCBB1E8EFA35D /* Debug */,
-				33A973E1D507BC1FCFE529F4 /* Release */,
+				16BD02A37F63D677EE1BDEE2 /* Debug */,
+				EDBCA421C6D4EFBC6814F533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD5B8CD168002940B77C073A /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingHTTPProtocol" */ = {
+		F6A01C173905BB6ABA594283 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingHTTPProtocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				144407AD73AD004A35F1B5D4 /* Debug */,
-				18E80C51DAF80CBB58958230 /* Release */,
+				D2DABB6FAB3A4779C5F3FBA3 /* Debug */,
+				F2E23DF537B5F969BE10D528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D251B5BD15C29EEB40DE424C /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemoTests-JiveAuthenticatingWebViewController" */ = {
+		FDA106AE8BC501EEBF34D058 /* Build configuration list for PBXNativeTarget "Pods-JiveAuthenticatingWebViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				288758F8581DBAE98A1A0028 /* Debug */,
-				2376431507F4352BB2608203 /* Release */,
+				8C8A7ECF215135F6542C230F /* Debug */,
+				4B33D5B26327354EA32D0FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6073827841E343DBAB382A80 /* Project object */;
+	rootObject = 3CD4C942B3FDBBE44273103E /* Project object */;
 }

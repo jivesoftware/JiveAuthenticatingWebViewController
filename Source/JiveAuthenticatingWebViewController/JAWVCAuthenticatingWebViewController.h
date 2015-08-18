@@ -49,7 +49,7 @@ typedef void (^JAWVCDidCancelAuthenticationChallengeHandler)(
 
 /*! See -[JAHPAuthenticatingHTTPProtocolDelegate authenticatingHTTPProtocol:didReceiveAuthenticationChallenge:]
  */
-- (nullable JAWVCDidCancelAuthenticationChallengeHandler)jawvc_authenticatingWebViewController:(nonnull JAWVCAuthenticatingWebViewController *)webViewController
+- (nullable JAWVCDidCancelAuthenticationChallengeHandler)jawvc_authenticatingWebViewController:(nonnull JAWVCAuthenticatingWebViewController *)authenticatingWebViewController
                                                              didReceiveAuthenticationChallenge:(nonnull NSURLAuthenticationChallenge *)challenge;
 
 @optional

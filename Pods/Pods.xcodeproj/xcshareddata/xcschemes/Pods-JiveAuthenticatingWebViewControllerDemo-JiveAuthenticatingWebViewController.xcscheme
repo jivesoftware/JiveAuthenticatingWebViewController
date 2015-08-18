@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAB4FBC32263EBF4053C14F1"
+               BlueprintIdentifier = "712D837B71C63670379BA0D7"
                BuildableName = "libPods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController.a"
                BlueprintName = "Pods-JiveAuthenticatingWebViewControllerDemo-JiveAuthenticatingWebViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

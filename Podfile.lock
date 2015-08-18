@@ -1,6 +1,6 @@
 PODS:
   - JiveAuthenticatingHTTPProtocol (0.3.2)
-  - JiveAuthenticatingWebViewController (0.1.0):
+  - JiveAuthenticatingWebViewController (0.1.1):
     - JiveAuthenticatingHTTPProtocol (= 0.3.2)
 
 DEPENDENCIES:
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JiveAuthenticatingHTTPProtocol: f4d81a029622fe9347c38d55c2239ecdbba91720
-  JiveAuthenticatingWebViewController: 12887673a965f061aab2c8410d2ff7c3d2ff2b82
+  JiveAuthenticatingWebViewController: dadaace247c888b33739bbc5b05a652b6fabb5f6
 
 COCOAPODS: 0.37.2

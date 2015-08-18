@@ -1,6 +1,6 @@
 {
   "name": "JiveAuthenticatingWebViewController",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": {
     "type": "Apache License, Version 2.0",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jivesoftware/JiveAuthenticatingWebViewController.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"

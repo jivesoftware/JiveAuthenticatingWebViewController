@@ -40,7 +40,7 @@
     return canAuthenticate;
 }
 
-- (nullable JAWVCDidCancelAuthenticationChallengeHandler)jawvc_authenticatingWebViewController:(nonnull JAWVCAuthenticatingWebViewController *)webViewController
+- (nullable JAWVCDidCancelAuthenticationChallengeHandler)jawvc_authenticatingWebViewController:(nonnull JAWVCAuthenticatingWebViewController *)authenticatingWebViewController
                                                              didReceiveAuthenticationChallenge:(nonnull NSURLAuthenticationChallenge *)challenge {
     self.authAlertView = [[UIAlertView alloc] initWithTitle:@"JAWVCDemo HTTP BASIC Login"
                                                     message:@"Enter 'foo' for the username and 'bar' for the password"

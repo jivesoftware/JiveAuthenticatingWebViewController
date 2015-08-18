@@ -16,5 +16,5 @@
 #define COCOAPODS_POD_AVAILABLE_JiveAuthenticatingWebViewController
 #define COCOAPODS_VERSION_MAJOR_JiveAuthenticatingWebViewController 0
 #define COCOAPODS_VERSION_MINOR_JiveAuthenticatingWebViewController 1
-#define COCOAPODS_VERSION_PATCH_JiveAuthenticatingWebViewController 0
+#define COCOAPODS_VERSION_PATCH_JiveAuthenticatingWebViewController 1
 

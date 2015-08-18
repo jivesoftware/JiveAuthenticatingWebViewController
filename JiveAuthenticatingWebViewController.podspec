@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'JiveAuthenticatingWebViewController'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary = 'A UIViewController containing a UIWebView that uses JiveAuthenticatingHTTPProtocol to respond to NSURLAuthenticationChallenges'
   s.homepage = 'https://github.com/jivesoftware/JiveAuthenticatingWebViewController'
